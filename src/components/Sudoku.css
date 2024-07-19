@@ -1,0 +1,27 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: #FFFFFF;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row:nth-child(3n) .cell {
+  border-bottom: 2px solid black;
+}
+
+.row:nth-child(9) .cell {
+  border-bottom: none;
+}
+
+.row .cell:nth-child(3n) {
+  border-right: 2px solid black;
+}
+
+.row .cell:nth-child(9) {
+  border-right: none;
+}

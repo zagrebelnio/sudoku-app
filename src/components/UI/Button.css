@@ -1,0 +1,126 @@
+.button {
+  border: none; 
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button-default {
+  background-color: #8A4FFF;
+  border: 5px solid #8A4FFF;
+  color: #FFFFFF;
+  border-radius: 15px;
+  height: 70px;
+}
+
+.button-default:hover {
+  background-color: transparent;
+  color: #8A4FFF;
+}
+
+.button-number {
+  background-color: #EFFFFA;
+  color: #8A4FFF;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.button-number:hover {
+  background-color: hsl(161, 100%, 87%);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-icon {
+  border: 3px solid #C3BEF7;
+  background-color: #C3BEF7;
+  width: 80px;
+  height: 80px;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-icon:hover,
+.button-selected {
+  border-color:#8A4FFF;
+  background-color: transparent;
+}
+
+.button-selected:hover {
+  border-color:hsl(260, 100%, 55%);
+}
+
+.button-text {
+  color:#8A4FFF;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .button {
+    font-size: 24px;
+  }
+  
+  .button-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .button-text {
+    font-size: 14px;
+  }
+
+  .button-number {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-default {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .button {
+    font-size: 18px;
+  }
+  
+  .button-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button-icon img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .button-text {
+    font-size: 12px;
+  }
+
+  .button-number {
+    width: 60px;
+    height: 60px;
+  }
+
+  .button-default {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button-number {
+    width: 50px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,59 @@
+.game-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 40px;
+}
+
+.number-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.number-buttons__row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .game-panel {
+    gap: 15px;
+  }
+
+  .control-buttons {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .game-panel {
+    gap: 10px;
+  }
+
+  .control-buttons {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .control-buttons {
+    justify-content: center;
+  }
+
+  .number-buttons {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .number-buttons__row {
+    gap: 5px;
+  }
+}

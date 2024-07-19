@@ -1,0 +1,45 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info__mistakes,
+.info__score,
+.info__timer {
+  margin: 0;
+  font-size: 24px;
+  color: #626262;
+}
+
+@media screen and (max-width: 1440px) {
+  .info {
+    gap: 10px;
+  }
+  
+  .info__mistakes,
+  .info__score,
+  .info__timer {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    gap: 5px;
+  }
+  
+  .info__mistakes,
+  .info__score,
+  .info__timer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+}

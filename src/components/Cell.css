@@ -1,0 +1,53 @@
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 48px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+.selected {
+  color: #8A4FFF;
+  background-color: #C3BEF7;
+}
+
+.wrong {
+  color: #C00F0C;
+  background-color: #FCD0CF;
+}
+
+.illuminated {
+  background-color: #E5ECF4;
+}
+
+.highlighted {
+  background-color: hsl(207, 90%, 86%);
+}
+
+.correct {
+  color: #42a5f5;
+}
+
+@media screen and (max-width: 1440px) {
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cell {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
