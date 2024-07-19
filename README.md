@@ -4,7 +4,7 @@
 This Sudoku App project is created using React for the front-end. It includes a Sudoku generator to create new puzzles, a solver to solve existing puzzles, and a user interface to interact with the Sudoku game. The project also utilizes CSS for styling and layout.
 
 ## Website
-[Link to Sudoku App]()
+[Link to Sudoku App](https://sudokuappzagrebelnio.netlify.app/)
 
 ## Screenshots
 ![starting screen](image.png)
